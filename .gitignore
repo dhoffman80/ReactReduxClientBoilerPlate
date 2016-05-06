@@ -2,3 +2,5 @@
 bundle.js
 npm-debug.log
 *.iml
+/.idea
+
