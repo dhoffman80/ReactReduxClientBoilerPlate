@@ -26,11 +26,11 @@ class SignIn extends Component{
             <form onSubmit={handleSubmit(this.handleFormSubmit.bind(this))}>
                 <fieldset className="form-group">
                     <label>Email: </label>
-                    <input {...email} className="form-control" type="text"/>
+                    <input {...email} id="email" className="form-control" type="text"/>
                 </fieldset>
                 <fieldset className="form-group">
                     <label>Password: </label>
-                    <input {...password} className="form-control" type="password"/>
+                    <input {...password} id="password" className="form-control" type="password"/>
                 </fieldset>
                 {this.renderAlert()}
                 <button action="submit" className="btn btn-primary">Sign In </button>
